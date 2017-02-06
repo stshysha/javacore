@@ -1,4 +1,4 @@
-package com.stshysha.app.classwork.lesson02;
+package com.stshysha.app.classwork.lesson2;
 
 /**
  * Created by new on 31.01.17.
