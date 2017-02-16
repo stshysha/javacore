@@ -1,6 +1,6 @@
-package com.stshysha.app.utils.runners;
+package com.stshysha.app.homework.utils.runners;
 
-import com.stshysha.app.utils.convertors.PrimitiveConvertor;
+import com.stshysha.app.homework.utils.convertors.PrimitiveConvertor;
 
 /**
  * Created by new on 05.02.17.

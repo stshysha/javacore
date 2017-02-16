@@ -1,4 +1,4 @@
-package com.stshysha.app.utils.convertors;
+package com.stshysha.app.homework.utils.convertors;
 
 /**
  * Created by new on 06.02.17.
