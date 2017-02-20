@@ -16,7 +16,7 @@ public class ArithmeticTest {
     @Test
     public void additionFalseTest(){
         int a = 30, b = 60, expRes = 100;
-        Assert.assertEquals(expRes, ArithmeticFunc.addition(a, b));
+        Assert.assertNotEquals(expRes, ArithmeticFunc.addition(a, b));
     }
 
     @Test
@@ -28,7 +28,7 @@ public class ArithmeticTest {
     @Test
     public void subtractionFalseTest(){
         int a = 88, b = 11, expRes = 66;
-        Assert.assertEquals(expRes, ArithmeticFunc.subtraction(a, b));
+        Assert.assertNotEquals(expRes, ArithmeticFunc.subtraction(a, b));
     }
 
     @Test
@@ -40,6 +40,6 @@ public class ArithmeticTest {
     @Test
     public void divisionFalseTest(){
         int a = 27, b = 3, expRes = 8;
-        Assert.assertEquals(expRes, ArithmeticFunc.division(a, b));
+        Assert.assertNotEquals(expRes, ArithmeticFunc.division(a, b));
     }
 }

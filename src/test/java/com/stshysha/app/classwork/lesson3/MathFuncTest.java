@@ -12,4 +12,10 @@ public class MathFuncTest {
         int a = 2, b = 3, expRes = 6;
         Assert.assertEquals(expRes, MathFunc.multiply(a, b));
     }
+
+    @Test
+    public void multiplyFailedTest(){
+        int a = 1, b = 2, expRes = 12;
+        Assert.assertNotEquals(expRes, MathFunc.multiply(a, b));
+    }
 }

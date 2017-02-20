@@ -1,11 +1,10 @@
 package com.stshysha.app.classwork.lesson4;
 
 /**
- * Created by new on 16.02.17.
+ * Created by new on 21.02.17.
  */
-public class CalculatorsRunner {
+public class TaskChoosenRunner {
     public static void main(String[] args) {
-
-//        Calculators.isOdd();
+        TaskChoosen.chooseTask();
     }
 }
