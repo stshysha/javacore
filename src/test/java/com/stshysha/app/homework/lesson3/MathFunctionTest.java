@@ -1,12 +1,20 @@
 package com.stshysha.app.homework.lesson3;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
  * Created by new on 18.02.17.
  */
 public class MathFunctionTest {
+    MathFunction mathFunction;
+
+    @Before
+    public void setUp(){
+        mathFunction = new MathFunction();
+    }
+
     @Test
     public void moduleTest(){
         int a = -3, expRes = 3;

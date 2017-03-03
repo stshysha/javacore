@@ -1,4 +1,6 @@
-package com.stshysha.app.classwork.lesson4;
+package com.stshysha.runners.lesson4;
+
+import com.stshysha.app.classwork.lesson4.RightAngledTriangle;
 
 import java.util.Scanner;
 

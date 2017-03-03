@@ -1,12 +1,20 @@
 package com.stshysha.app.homework.lesson3;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
  * Created by new on 18.02.17.
  */
 public class ArithmeticTest {
+    ArithmeticFunc aritheticFunc;
+
+    @Before
+    public void setUp(){
+        aritheticFunc = new ArithmeticFunc();
+    }
+
     @Test
     public void additionTest(){
         int a = 12, b = 13, expRes = 25;

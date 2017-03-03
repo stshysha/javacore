@@ -1,4 +1,4 @@
-package com.stshysha.app.homework.utils.runners;
+package com.stshysha.runners.homework_utils;
 
 import com.stshysha.app.homework.utils.convertors.PrimitiveConvertor;
 

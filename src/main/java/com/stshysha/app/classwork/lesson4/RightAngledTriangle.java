@@ -5,8 +5,8 @@ package com.stshysha.app.classwork.lesson4;
  */
 public class RightAngledTriangle {
     public boolean isTriangle (int a, int b, int c){
-        if(a > 0 && b > 0 && c > 0) {
-            return (a * a == b * b + c * c || b * b == a * a + c * c || c * c == a * a + b * b);
+        if ((a * a == b * b + c * c || b * b == a * a + c * c || c * c == a * a + b * b) && (a > 0 && b > 0 && c > 0)) {
+            return true;
         } else {
             return false;
         }

@@ -1,4 +1,7 @@
-package com.stshysha.app.classwork.lesson2;
+package com.stshysha.runners.lesson2;
+
+import com.stshysha.app.classwork.lesson2.NarrowingCasting;
+import com.stshysha.app.classwork.lesson2.WideningCasting;
 
 /**
  * Created by new on 02.02.17.
