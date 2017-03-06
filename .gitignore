@@ -3,6 +3,7 @@
 *.iml
 /out/
 /target/
+/src/main/java/com/stshysha/learning/
 .DS_Store*
 ehthumbs.db
 Icon?

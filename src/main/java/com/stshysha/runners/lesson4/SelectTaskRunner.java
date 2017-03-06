@@ -8,8 +8,8 @@ import java.util.Scanner;
  */
 public class SelectTaskRunner {
     public static void main(String[] args) {
-        System.out.println("Select one task from the list. Type from 1 to 4, please.");
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Select one task from the list. Type from 1 to 4, please.");
         System.out.print("Please enter task:");
         int task = scanner.nextInt();
         SelectTask st = new SelectTask();
